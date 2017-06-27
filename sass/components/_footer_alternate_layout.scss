@@ -1,0 +1,27 @@
+/**
+* Footer alternate layout
+**/
+
+@import "zen";
+
+$zen-column-count: 6;
+$zen-gutter-width: 20px;
+$zen-auto-include-item-base: true;
+
+.view-footer-view-alternative .view-content{
+  @include zen-grid-container;
+  .views-row-2{
+    @include zen-grid-item(3, 1);
+    img{
+      max-height: 4em;
+    }
+    p{
+      margin-top: 0em;
+      margin-bottom: 0em;
+    }
+    text-align: center;
+  }
+  .views-row-1{
+    @include zen-grid-item(3, 4);
+  }
+}

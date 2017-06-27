@@ -1,0 +1,56 @@
+/*
+* Metadata CSS.
+*/
+
+.solr-fields dt, .solr-fields dd{
+  border: none !important;
+}
+
+dl.islandora-inline-metadata{
+  letter-spacing: normal !important;
+  h1{
+    font-weight: normal;
+    a{
+      word-spacing: normal !important;
+    }
+  }
+}
+
+.pager li.pager-current{
+  color: #f08339;
+}
+
+.solr-label.dc-description{
+  font-weight: normal;
+  color: #F08339;
+}
+
+fieldset{
+  border: none !important;
+}
+
+fieldset.islandora-metadata{
+  dd p{
+    margin-top: .1em;
+    margin-bottom: .1em;
+  }
+}
+
+dl.islandora-inline-metadata{
+  dt{
+    /*   Instead of overriding every solution pack provided style CSS file, force it here  */
+    text-align: left !important;
+    padding-left: 10px !important;
+  }
+}
+
+.collection-description-value > p {
+  background-color: white;
+  box-sizing: border-box;
+  margin:0;
+  padding:10px;
+}
+
+div.islandora ul {
+  list-style:none;
+}

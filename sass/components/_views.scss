@@ -1,0 +1,95 @@
+/**
+ * Views related styling
+ */
+
+.views-exposed-widget{
+  max-width: 95%;
+}
+
+.view-clone-of-islandora-usage-stats-for-collections{
+  .views-field-id{
+    span{
+      color: grey !important;
+    }
+  }
+}
+
+.view-sort-by-title{
+  .slides{
+    li{
+      text-align: center;
+      margin: 7px;
+    }
+  }
+  .flex-direction-nav a::before{
+    font-size: 18px;
+  }
+  ::-webkit-input-placeholder {
+    font-style: italic;
+  }
+  :-moz-placeholder {
+    font-style: italic;  
+  }
+  ::-moz-placeholder {
+    font-style: italic;  
+  }
+  :-ms-input-placeholder {  
+    font-style: italic; 
+  }
+}
+
+.view-collection-item-details-view{
+  .views-row{
+    text-align: left;
+    .views-field{
+      >div{
+        display: inline-block;
+      }
+      div:nth-child(1){
+        width: 22.5%;
+      }
+    }
+  }
+}
+
+.sort-by-div-image-wrapper{
+  display: inline-block;
+}
+
+.views-field.views-field-dctitle.boundry.slideshow-title {
+  bottom: 100px;
+  position: relative;
+}
+
+.field-content.title-field-content {
+  box-sizing: border-box;
+  float: right;
+  clear:right;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    text-align: right;
+}
+
+.slideshow-inner-title {
+  display: inline-block;
+  background-color: white;
+  box-sizing: border-box;
+  display: inline-block;
+  opacity: 0.5;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.sort-by-image-link{
+  width: 100%;
+  height: 100%;
+}
+
+.sort-by-div-image-wrapper-outer{
+  background: image-url("folder.png") no-repeat center center;
+  background-size: cover;
+  width:80px;
+  height: 80px;
+}

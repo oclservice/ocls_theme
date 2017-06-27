@@ -1,0 +1,73 @@
+/**
+ * @file
+ * Basic view grid styling for the advanced search Layout.
+ */
+
+@import "zen";
+
+$zen-column-count: 20;
+$zen-gutter-width: 5px;
+$zen-auto-include-item-base: true;
+ 
+@mixin vertical-align($position: relative) {
+  position: $position;
+  top: 50%;
+  -webkit-transform: translateY(200%);
+  -ms-transform: translateY(200%);
+  transform: translateY(200%);
+}
+
+#islandora-solr-advanced-terms>div{
+  @include zen-grid-container;
+  div:not(:last-child).form-type-select{
+    @include zen-grid-item(8, 1);
+    select{
+      width: 100%;
+    }
+  }
+  div.form-type-textfield{
+    @include zen-grid-item(8, 9);
+    input{
+      width: 100%;
+    }
+  }
+  input[value="+"]{
+    @include zen-grid-item(1, 17);
+    @include vertical-align();
+    background: image-url("add.png");
+    background-repeat: no-repeat;
+    width:24px;
+    height:24px;
+    border: 0;
+    text-indent: -9999px;
+  }
+  input[value="-"]{
+    @include zen-grid-item(1, 18);
+    @include vertical-align();
+    background: image-url("rounded.png");
+    background-repeat: no-repeat;
+    width:24px;
+    height:24px;
+    border: 0;
+    text-indent: -9999px;
+  }
+  div:last-child.form-type-select{
+    @include zen-grid-item(2, 19);
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+    select{
+      width: 100%;
+    }
+  }
+}
+
+.islandora-solr-advanced-controls{
+  float: left;
+}
+
+.advanced-search-helper-text{
+  padding-top: 40px;
+}
