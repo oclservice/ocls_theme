@@ -26,11 +26,11 @@ Drupal.behaviors.ocls_theme_behaviour = {
         $('#edit-terms-0-add').mousedown();
       }
       // Adjust the search bar width to match that of the menu.
-      updateSearchBar();
+//      updateSearchBar();
     });
     $(window).resize(function() {
       // Adjust the search bar width to match that of the menu.
-      updateSearchBar();
+//      updateSearchBar();
     });
   }
 };

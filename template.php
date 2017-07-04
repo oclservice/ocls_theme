@@ -108,6 +108,7 @@ function ocls_theme_form_islandora_solr_simple_search_form_alter(&$form, &$form_
   );
   $form['simple']['advanced_link'] = $link;
   $form['simple']['islandora_simple_search_query']['#attributes']['placeholder'] = t("Search All Collections");
+  $form['simple']['islandora_simple_search_query']['#title_display'] = 'invisible';
 
   if (drupal_is_front_page()) {
     $form['simple']['header_text'] = array(
