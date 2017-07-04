@@ -51,6 +51,7 @@ stylesheets[all][] = system.theme.css
 
 ; Then we add our own stylesheet.
 stylesheets[all][] = css/styles.css
+stylesheets[all][] = layout.css
 stylesheets[all][] = css/islandora_video.theme.css
 stylesheets[all][] = css/islandora_audio.theme.css
 stylesheets[all][] = css/islandora_large_image.theme.css
