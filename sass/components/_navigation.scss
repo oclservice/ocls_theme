@@ -1,0 +1,29 @@
+/**
+ * @file Style the Navigation Bar
+ */
+
+#navigation{
+  display: table;
+  div.region-navigation{
+    display: inline-block;
+    float: right;
+    max-width: 100%;
+    vertical-align: middle;
+    width: 100%;
+    .block-islandora-solr{
+      float: right;
+    }
+  }
+}
+.front{
+  #navigation{
+    height: 0em !important;
+  }
+}
+
+.not-front{
+  #navigation{
+    height: 4em !important;
+    display: inherit !important;
+  }
+}

@@ -1,0 +1,76 @@
+/**
+ * @file Style the header
+ */
+ 
+.header__logo-image{
+  max-height: 8em;
+}
+
+.inner-header-wrapper {
+  .header__logo-image{
+    max-height: 8em;
+  }
+  display: table;
+  width: 100%;
+  > div{
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .superfish-main-menu-header{
+    text-align: right;
+    ul.sf-menu{
+      text-align: right;
+      float: right;
+      li{
+        padding-left: 10px;
+        padding-right: 10px;
+        a{
+          text-decoration: none;
+          color: $deep-purple;
+        }
+      }
+      li:not(:last-child) {
+        border-right: 1px solid black;
+        
+      }
+      li:last-child{
+        padding-right: 0px;
+      }
+    }
+  }
+}
+
+@import "zen";
+
+$zen-column-count: 5;
+$zen-gutter-width: 5px;
+$zen-auto-include-item-base: true;
+
+@media (max-width: 620px) {
+  .inner-header-wrapper{
+    @include zen-grid-container;
+    .header-logo{
+      @include zen-grid-item(5, 1);
+      text-align: center;
+      #logo{
+        float: none !important;
+      }
+    }
+    .region-header{
+      @include zen-clear();
+      @include zen-grid-item(5, 1);
+      .superfish-main-menu-header{
+        text-align: center !important;
+        padding-top: 20px;
+      }
+    }
+  }
+  .not-front #navigation .nav-inner-wrapper .block-islandora-solr{
+    max-width: 100% !important;
+    float: none !important;
+  }
+  .front #navigation .nav-inner-wrapper .block-islandora-solr{
+    max-width: 100% !important;
+    float: none !important;
+  }
+}

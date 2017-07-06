@@ -1,0 +1,20 @@
+
+@import "zen";
+
+$zen-column-count: 5;
+$zen-gutter-width: 5px;
+$zen-auto-include-item-base: true;
+
+.section-advanced-search{
+  #content{
+    @include zen-grid-container;
+    #block-islandora-solr-advanced{
+      @include zen-grid-item(5, 1);
+      @include zen-clear();
+    }
+    article{
+      @include zen-clear();
+      @include zen-grid-item(5, 1);
+    }
+  }
+}

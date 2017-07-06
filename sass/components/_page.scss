@@ -1,0 +1,49 @@
+/**
+*  Basic page styling
+**/
+
+.front{
+  #content{
+    padding: 0px !important;
+    display:none;
+  }
+}
+
+.not-front{
+  #edit-simple {
+    padding-top: 2px;
+  }
+}
+
+.nav-inner-wrapper {
+  padding-top: 4px;
+  width: 100%;
+}
+footer .nav-inner-wrapper{
+  display: inherit;
+}
+
+.not-front footer{
+  .block{
+    margin-bottom: 0em;
+  }
+}
+
+.region-sidebar-first{
+  border-radius: 5px;
+}
+
+.adv_search{
+  color: white !important;
+}
+
+#edit-simple{
+  h1{
+    color: white !important;
+  }
+}
+
+.front-menu-wrapper {
+  display: table !important;
+  width: 100%;
+}

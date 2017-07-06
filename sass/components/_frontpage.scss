@@ -1,0 +1,33 @@
+/*
+* Frontpage CSS.
+*/
+
+.background-link {
+  background-color: white;
+  border-radius: 5px;
+  bottom: 1em;
+  box-sizing: border-box;
+  margin-top: 60px;
+  opacity: 0.8;
+  padding:20px;
+  float: right;
+  a{
+    color: black;
+  }
+}
+
+.front-link-wrapper {
+  background-color: white;
+  box-sizing: border-box;
+  color: black;
+  float: right;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:30px;
+  padding-right: 30px;
+  a{
+    color: black !important;
+  }
+  opacity: .7;
+  border-radius: 5px;
+}

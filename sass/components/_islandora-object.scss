@@ -1,0 +1,128 @@
+/**
+* Islandora object related styling
+**/
+
+.object-search-result{
+  #islandora-solr-result-count{
+    display: none;
+  }
+  #islandora-solr-top{
+    display: none;
+  }
+}
+
+.islandora.islandora-basic-collection {
+    text-align: center;
+}
+
+/*
+* Video Styles
+*/
+.islandora-video-content, #mediaplayer{
+  width: 100% !important;
+}
+
+.islandora-video-content{
+  padding-top: none !important;
+}
+
+.islandora-objects-grid {
+  text-align: center;
+}
+
+.islandora-basic-collection{
+  .display-switch-wrapper > div {
+    float: right;
+  }
+}
+
+.solr-result-label-count{
+  display: table;
+  width: 100%;
+  > h1 {
+    display: table-cell;
+  }
+  > div {
+    display: table-cell;
+    text-align: right;
+  }
+}
+
+.page-islandora-search{
+  .page__title.title{
+    display: none;
+  }
+}
+
+%display-switch{
+  background-repeat: no-repeat;
+  line-height: 0; 
+  font-size: 0;
+  color: transparent; 
+  display: block;
+  height: 30px;
+  text-indent: -9999px;
+  width: 30px;
+}
+
+.islandora-objects{
+  .islandora-object-thumb{
+    img{
+      border-radius: 5px;
+    }
+  }
+  .islandora-objects-list-item{
+    border-bottom-color: #ddd;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding-bottom: 1.5em;
+  }
+}
+
+#block-islandora-solr-sort{
+  ul.islandora-solr-sort{
+    margin-top: 0px;
+    list-style: none;
+    padding-left: 0px;
+  }
+}
+
+li a.islandora-view-grid, .islandora-basic-collection-display-switch li.first a{
+  background-image: image-url('display-grid.png');
+  @extend %display-switch;
+}
+
+li a.islandora-view-list, .islandora-basic-collection-display-switch li.last a{
+  background-image: image-url('display-grid-list.png');
+  @extend %display-switch;
+}
+
+.islandora-basic-collection-display-switch {
+  display: inline-block;
+  float: right;
+  ul{
+    display: table !important;
+    float: right;
+    padding-top: 10px;
+    li{
+      display: table-cell !important;
+      float: right;
+      list-style-type: none;
+      padding-bottom: 0;
+      padding-left: 0;
+      padding-right: 1em;
+      padding-top: 0;
+      text-align: right;
+    }
+  }
+}
+
+.page-islandora-object{
+  .tabs-primary{
+    margin-bottom: 0em;
+  }
+}
+
+.islandora-collection-metadata li {
+    list-style:none;
+}
