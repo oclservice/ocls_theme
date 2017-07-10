@@ -1928,62 +1928,20 @@ ul.islandora-solr-facet > li > a {
 /**
 * Footer primary layout
 **/
-/* line 45, ../sass-extensions/zen-grids/stylesheets/zen/_grids.scss */
-.view-footer-view-primary .view-content:before, .view-footer-view-primary .view-content:after {
-  content: "";
+/* line 7, ../sass/components/_footer_primary_layout.scss */
+.view-footer-view-primary .views-row {
   display: table;
 }
-/* line 50, ../sass-extensions/zen-grids/stylesheets/zen/_grids.scss */
-.view-footer-view-primary .view-content:after {
-  clear: both;
+/* line 9, ../sass/components/_footer_primary_layout.scss */
+.view-footer-view-primary .views-row .views-field-field-image-block {
+  display: table-cell;
+  vertical-align: middle;
 }
 /* line 13, ../sass/components/_footer_primary_layout.scss */
-.view-footer-view-primary .view-content .views-row-1 {
-  float: left;
-  width: 66.66667%;
-  margin-left: 0%;
-  margin-right: -66.66667%;
-  padding-left: 10px;
-  padding-right: 10px;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
-  word-wrap: break-word;
-}
-/* line 16, ../sass/components/_footer_primary_layout.scss */
-.view-footer-view-primary .view-content .views-row-3 {
-  float: left;
-  width: 16.66667%;
-  margin-left: 66.66667%;
-  margin-right: -83.33333%;
-  padding-left: 10px;
-  padding-right: 10px;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
-  word-wrap: break-word;
-  position: relative;
-  top: -10%;
-  transform: translateY(30%);
-}
-/* line 22, ../sass/components/_footer_primary_layout.scss */
-.view-footer-view-primary .view-content .views-row-2 {
-  float: left;
-  width: 16.66667%;
-  margin-left: 83.33333%;
-  margin-right: -100%;
-  padding-left: 10px;
-  padding-right: 10px;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
-  word-wrap: break-word;
-  position: relative;
-  top: -10%;
-  transform: translateY(20%);
+.view-footer-view-primary .views-row .views-field-body {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 10px;
 }
 
 /**
