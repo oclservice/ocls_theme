@@ -4,25 +4,15 @@
 
 @import "zen";
 
-$zen-column-count: 6;
-$zen-gutter-width: 20px;
-$zen-auto-include-item-base: true;
-
-.view-footer-view-primary .view-content{
-  @include zen-grid-container;
-  .views-row-1{
-    @include zen-grid-item(4, 1);
+.view-footer-view-primary .views-row {
+  display: table;
+  .views-field-field-image-block{
+    display: table-cell;
+    vertical-align: middle;
   }
-  .views-row-3{
-    @include zen-grid-item(1, 5);
-    position: relative;
-    top: -10%;
-    transform: translateY(30%);
-  }
-  .views-row-2{
-    @include zen-grid-item(1, 6);
-    position: relative;
-    top: -10%;
-    transform: translateY(20%);
+  .views-field-body{
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10px;
   }
 }
