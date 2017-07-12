@@ -9,7 +9,13 @@
 .inner-header-wrapper {
   .header__logo-image{
     max-height: 8em;
+    margin: 2em auto;
   }
+
+  .block-superfish {
+    margin-bottom: 0;
+  }
+
   display: table;
   width: 100%;
   > div{
