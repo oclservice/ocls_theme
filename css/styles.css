@@ -27,7 +27,7 @@
  * HTML5 display definitions
  */
 /* Correct `block` display not defined in IE 8/9. */
-/* line 23, ../sass/_normalize.scss */
+/* line 33, ../sass/_normalize.scss */
 article,
 aside,
 details,
@@ -43,7 +43,7 @@ summary {
 }
 
 /* Correct `inline-block` display not defined in IE 8/9. */
-/* line 38, ../sass/_normalize.scss */
+/* line 40, ../sass/_normalize.scss */
 audio,
 canvas,
 video {
@@ -142,7 +142,7 @@ a:focus {
 }
 
 /* Improve readability when focused and also mouse hovered in all browsers. */
-/* line 153, ../sass/_normalize.scss */
+/* line 154, ../sass/_normalize.scss */
 a:active,
 a:hover {
   outline: 0;
@@ -158,7 +158,7 @@ a:hover {
  * For more information, see http://24ways.org/2006/compose-to-a-vertical-rhythm
  */
 /* Set 1 unit of vertical rhythm on the top and bottom margin. */
-/* line 169, ../sass/_normalize.scss */
+/* line 170, ../sass/_normalize.scss */
 p,
 pre {
   margin: 1.5em 0;
@@ -231,7 +231,7 @@ abbr[title] {
 }
 
 /* Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome. */
-/* line 222, ../sass/_normalize.scss */
+/* line 223, ../sass/_normalize.scss */
 b,
 strong {
   font-weight: bold;
@@ -246,8 +246,8 @@ dfn {
 /* Address differences between Firefox and other browsers. */
 /* line 233, ../sass/_normalize.scss */
 hr {
-  -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0;
   border: 1px solid #666;
@@ -263,7 +263,7 @@ mark {
 }
 
 /* Correct font family set oddly in Safari 5 and Chrome. */
-/* line 248, ../sass/_normalize.scss */
+/* line 253, ../sass/_normalize.scss */
 code,
 kbd,
 pre,
@@ -294,7 +294,7 @@ small {
 }
 
 /* Prevent `sub` and `sup` affecting `line-height` in all browsers. */
-/* line 284, ../sass/_normalize.scss */
+/* line 285, ../sass/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -316,7 +316,7 @@ sub {
 /**
  * Lists
  */
-/* line 301, ../sass/_normalize.scss */
+/* line 304, ../sass/_normalize.scss */
 dl,
 menu,
 ol,
@@ -325,7 +325,7 @@ ul {
   margin: 1.5em 0;
 }
 
-/* line 310, ../sass/_normalize.scss */
+/* line 311, ../sass/_normalize.scss */
 ol ol,
 ol ul,
 ul ol,
@@ -341,7 +341,7 @@ dd {
 }
 
 /* Address paddings set differently in IE 6/7. */
-/* line 321, ../sass/_normalize.scss */
+/* line 323, ../sass/_normalize.scss */
 menu,
 ol,
 ul {
@@ -388,17 +388,17 @@ fieldset {
   margin: 0 2px;
   /* Apply borders and padding that keep the vertical rhythm. */
   border-color: #c0c0c0;
-  border-top-width: 0.0625em;
   border-top-style: solid;
+  border-top-width: 0.0625em;
   padding-top: 0.4625em;
-  border-bottom-width: 0.0625em;
   border-bottom-style: solid;
+  border-bottom-width: 0.0625em;
   padding-bottom: 0.9125em;
-  border-left-width: 0.0625em;
   border-left-style: solid;
+  border-left-width: 0.0625em;
   padding-left: 0.9125em;
-  border-right-width: 0.0625em;
   border-right-style: solid;
+  border-right-width: 0.0625em;
   padding-right: 0.9125em;
 }
 
@@ -422,7 +422,7 @@ legend {
  * 4. Improve appearance and consistency with IE 6/7.
  * 5. Keep form elements constrained in their containers.
  */
-/* line 413, ../sass/_normalize.scss */
+/* line 416, ../sass/_normalize.scss */
 button,
 input,
 select,
@@ -435,8 +435,8 @@ textarea {
   /* 3 */
   max-width: 100%;
   /* 5 */
-  -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
   /* 5 */
 }
@@ -445,7 +445,7 @@ textarea {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 432, ../sass/_normalize.scss */
+/* line 433, ../sass/_normalize.scss */
 button,
 input {
   line-height: normal;
@@ -457,7 +457,7 @@ input {
  * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
  * Correct `select` style inheritance in Firefox 4+ and Opera.
  */
-/* line 443, ../sass/_normalize.scss */
+/* line 444, ../sass/_normalize.scss */
 button,
 select {
   text-transform: none;
@@ -472,7 +472,7 @@ select {
  * 4. Remove inner spacing in IE 7 without affecting normal text inputs.
  *    Known issue: inner spacing remains in IE 6.
  */
-/* line 457, ../sass/_normalize.scss */
+/* line 460, ../sass/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -486,7 +486,7 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-/* line 471, ../sass/_normalize.scss */
+/* line 472, ../sass/_normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
@@ -498,11 +498,11 @@ html input[disabled] {
  * 3. Remove excess padding in IE 7.
  *    Known issue: excess padding remains in IE 6.
  */
-/* line 482, ../sass/_normalize.scss */
+/* line 483, ../sass/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
-  -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
   /* 1 */
   padding: 0;
@@ -518,8 +518,8 @@ input[type="radio"] {
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
-  -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
   box-sizing: content-box;
   /* 2 */
 }
@@ -528,14 +528,14 @@ input[type="search"] {
  * Remove inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
-/* line 506, ../sass/_normalize.scss */
+/* line 507, ../sass/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
 /* Remove inner padding and border in Firefox 4+. */
-/* line 512, ../sass/_normalize.scss */
+/* line 513, ../sass/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -591,7 +591,7 @@ table {
 /**
  * Wireframes.
  */
-/* line 15, ../sass/components/_misc.scss */
+/* line 22, ../sass/components/_misc.scss */
 .with-wireframes #header,
 .with-wireframes #main,
 .with-wireframes #content,
@@ -607,7 +607,7 @@ table {
  * Accessibility features.
  */
 /* element-invisible as defined by http://snook.ca/archives/html_and_css/hiding-content-for-accessibility */
-/* line 39, ../sass/components/_misc.scss */
+/* line 40, ../sass/components/_misc.scss */
 .element-invisible,
 .element-focusable,
 #navigation .block-menu .block__title,
@@ -658,7 +658,7 @@ h2, h1, h3 {
 #skip-link {
   margin: 0;
 }
-/* line 81, ../sass/components/_misc.scss */
+/* line 82, ../sass/components/_misc.scss */
 #skip-link a,
 #skip-link a:visited {
   display: block;
@@ -707,12 +707,12 @@ h2, h1, h3 {
 }
 
 /* The link around the name of the website. */
-/* line 125, ../sass/components/_misc.scss */
+/* line 126, ../sass/components/_misc.scss */
 .header__site-link:link, .header__site-link:visited {
   color: #000;
   text-decoration: none;
 }
-/* line 131, ../sass/components/_misc.scss */
+/* line 132, ../sass/components/_misc.scss */
 .header__site-link:hover, .header__site-link:focus {
   text-decoration: underline;
 }
@@ -750,7 +750,7 @@ h2, h1, h3 {
 #navigation .block {
   margin-bottom: 0;
 }
-/* line 170, ../sass/components/_misc.scss */
+/* line 171, ../sass/components/_misc.scss */
 #navigation .links,
 #navigation .menu {
   margin: 0;
@@ -789,7 +789,7 @@ h2, h1, h3 {
 /**
  * Titles.
  */
-/* line 205, ../sass/components/_misc.scss */
+/* line 210, ../sass/components/_misc.scss */
 .page__title,
 .node__title,
 .block__title,
@@ -844,21 +844,21 @@ h2, h1, h3 {
 }
 
 /* System status report. */
-/* line 264, ../sass/components/_misc.scss */
+/* line 265, ../sass/components/_misc.scss */
 .ok,
 .messages--status {
   background-color: #f8fff0;
   color: #234600;
 }
 
-/* line 269, ../sass/components/_misc.scss */
+/* line 270, ../sass/components/_misc.scss */
 .warning,
 .messages--warning {
   background-color: #fffce5;
   color: #840;
 }
 
-/* line 274, ../sass/components/_misc.scss */
+/* line 275, ../sass/components/_misc.scss */
 .error,
 .messages--error {
   background-color: #fef5f1;
@@ -872,16 +872,14 @@ h2, h1, h3 {
 /* line 285, ../sass/components/_misc.scss */
 .tabs-primary, .tabs-secondary {
   overflow: hidden;
-  *zoom: 1;
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjEuMCIgeDI9IjAuNSIgeTI9IjAuMCI+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjYmJiYmJiIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-  background-size: 100%;
-  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(100%, #bbbbbb), color-stop(100%, rgba(0, 0, 0, 0)));
-  background-image: -moz-linear-gradient(bottom, #bbbbbb 1px, rgba(0, 0, 0, 0) 1px);
-  background-image: -webkit-linear-gradient(bottom, #bbbbbb 1px, rgba(0, 0, 0, 0) 1px);
-  background-image: linear-gradient(to top, #bbbbbb 1px, rgba(0, 0, 0, 0) 1px);
+  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(100%, #bbbbbb), color-stop(100%, transparent));
+  background-image: -webkit-linear-gradient(bottom, #bbbbbb 1px, transparent 1px);
+  background-image: -moz-linear-gradient(bottom, #bbbbbb 1px, transparent 1px);
+  background-image: -o-linear-gradient(bottom, #bbbbbb 1px, transparent 1px);
+  background-image: linear-gradient(bottom, #bbbbbb 1px, transparent 1px);
   /* IE 9 and earlier don't understand gradients. */
   list-style: none;
-  border-bottom: 1px solid #bbb \0/ie;
+  border-bottom: 1px solid #bbbbbb \0/ie;
   margin: 1.5em 0;
   padding: 0 2px;
   white-space: nowrap;
@@ -914,16 +912,16 @@ a.tabs-primary__tab-link, a.tabs-primary__tab-link.is-active, a.tabs-secondary__
   -moz-border-radius-topright: 4px;
   -webkit-border-top-right-radius: 4px;
   border-top-right-radius: 4px;
-  text-shadow: 1px 1px 0 #fff;
-  border: 1px solid #bbb;
+  text-shadow: 1px 1px 0 white;
+  border: 1px solid #bbbbbb;
   border-bottom-color: transparent;
   /* IE 9 and earlier don't understand gradients. */
   border-bottom: 0 \0/ie;
 }
 
 /* line 321, ../sass/components/_misc.scss */
-.tabs-primary__tab.is-active {
-  border-bottom-color: #fff;
+.is-active.tabs-primary__tab {
+  border-bottom-color: white;
 }
 
 /* line 327, ../sass/components/_misc.scss */
@@ -934,9 +932,9 @@ a.tabs-primary__tab-link, a.tabs-primary__tab-link.is-active {
   -moz-border-radius-topright: 4px;
   -webkit-border-top-right-radius: 4px;
   border-top-right-radius: 4px;
+  -webkit-transition: background-color 0.3s;
   -moz-transition: background-color 0.3s;
   -o-transition: background-color 0.3s;
-  -webkit-transition: background-color 0.3s;
   transition: background-color 0.3s;
   color: #333;
   background-color: #dedede;
@@ -954,13 +952,11 @@ a.tabs-primary__tab-link:hover, a.tabs-primary__tab-link:focus {
 /* line 341, ../sass/components/_misc.scss */
 a.tabs-primary__tab-link:active, a.tabs-primary__tab-link.is-active {
   background-color: transparent;
-  *zoom: 1;
   filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFE9E9E9', endColorstr='#00E9E9E9');
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2U5ZTllOSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2U5ZTllOSIgc3RvcC1vcGFjaXR5PSIwLjAiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
-  background-size: 100%;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e9e9e9), color-stop(100%, rgba(233, 233, 233, 0)));
-  background-image: -moz-linear-gradient(#e9e9e9, rgba(233, 233, 233, 0));
   background-image: -webkit-linear-gradient(#e9e9e9, rgba(233, 233, 233, 0));
+  background-image: -moz-linear-gradient(#e9e9e9, rgba(233, 233, 233, 0));
+  background-image: -o-linear-gradient(#e9e9e9, rgba(233, 233, 233, 0));
   background-image: linear-gradient(#e9e9e9, rgba(233, 233, 233, 0));
   border-color: #fff;
 }
@@ -973,7 +969,7 @@ a.tabs-primary__tab-link:active, a.tabs-primary__tab-link.is-active {
   margin-top: -1.5em;
 }
 
-/* line 371, ../sass/components/_misc.scss */
+/* line 372, ../sass/components/_misc.scss */
 .tabs-secondary__tab,
 .tabs-secondary__tab.is-active {
   margin: 0.75em 3px;
@@ -981,14 +977,16 @@ a.tabs-primary__tab-link:active, a.tabs-primary__tab-link.is-active {
 
 /* line 378, ../sass/components/_misc.scss */
 a.tabs-secondary__tab-link, a.tabs-secondary__tab-link.is-active {
-  -moz-border-radius: 0.75em;
   -webkit-border-radius: 0.75em;
+  -moz-border-radius: 0.75em;
+  -ms-border-radius: 0.75em;
+  -o-border-radius: 0.75em;
   border-radius: 0.75em;
+  -webkit-transition: background-color 0.3s;
   -moz-transition: background-color 0.3s;
   -o-transition: background-color 0.3s;
-  -webkit-transition: background-color 0.3s;
   transition: background-color 0.3s;
-  text-shadow: 1px 1px 0 #fff;
+  text-shadow: 1px 1px 0 white;
   background-color: #f2f2f2;
   color: #666;
   padding: 0 .5em;
@@ -1003,7 +1001,7 @@ a.tabs-secondary__tab-link:hover, a.tabs-secondary__tab-link:focus {
 
 /* line 392, ../sass/components/_misc.scss */
 a.tabs-secondary__tab-link:active, a.tabs-secondary__tab-link.is-active {
-  text-shadow: 1px 1px 0 #333;
+  text-shadow: 1px 1px 0 #333333;
   background-color: #666;
   border-color: #000;
   color: #fff;
@@ -1082,7 +1080,7 @@ span.field-label {
   background-image: none;
 }
 
-/* line 472, ../sass/components/_misc.scss */
+/* line 477, ../sass/components/_misc.scss */
 .pager-item,
 .pager-first,
 .pager-previous,
@@ -1139,7 +1137,7 @@ span.field-label {
  * Marker.
  */
 /* The "new" or "updated" marker. */
-/* line 531, ../sass/components/_misc.scss */
+/* line 532, ../sass/components/_misc.scss */
 .new,
 .update {
   color: #c00;
@@ -1215,16 +1213,16 @@ span.field-label {
   /* Highlight the form elements that caused a form submission error. */
   /* The descriptive help text (separate from the label). */
 }
-/* line 606, ../sass/components/_misc.scss */
+/* line 607, ../sass/components/_misc.scss */
 .form-checkboxes .form-item, .form-radios .form-item {
   /* Drupal core uses "0.4em 0". */
   margin: 0;
 }
-/* line 613, ../sass/components/_misc.scss */
+/* line 614, ../sass/components/_misc.scss */
 tr.odd .form-item, tr.even .form-item {
   margin: 0;
 }
-/* line 619, ../sass/components/_misc.scss */
+/* line 621, ../sass/components/_misc.scss */
 .form-item input.error,
 .form-item textarea.error,
 .form-item select.error {
@@ -1257,12 +1255,13 @@ label.option {
 /* Buttons used by contrib modules like Media. */
 /* line 650, ../sass/components/_misc.scss */
 a.button {
-  -moz-appearance: button;
   -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
 }
 
 /* Password confirmation. */
-/* line 655, ../sass/components/_misc.scss */
+/* line 656, ../sass/components/_misc.scss */
 .password-parent,
 .confirm-parent {
   margin: 0;
@@ -1289,13 +1288,13 @@ a.button {
 }
 
 /* The "Log in using OpenID" and "Cancel OpenID login" links. */
-/* line 679, ../sass/components/_misc.scss */
+/* line 680, ../sass/components/_misc.scss */
 .openid-link,
 .user-link {
   margin-top: 1.5em;
 }
 
-/* line 683, ../sass/components/_misc.scss */
+/* line 684, ../sass/components/_misc.scss */
 html.js #user-login-form li.openid-link,
 #user-login-form li.openid-link {
   /* Un-do some of the padding on the ul list. */
@@ -1328,7 +1327,7 @@ form table ul {
   margin: 0;
 }
 
-/* line 708, ../sass/components/_misc.scss */
+/* line 709, ../sass/components/_misc.scss */
 tr.even,
 tr.odd {
   background-color: #eee;
@@ -1348,7 +1347,7 @@ td.active {
 }
 
 /* Center checkboxes inside table cell. */
-/* line 734, ../sass/components/_misc.scss */
+/* line 735, ../sass/components/_misc.scss */
 td.checkbox,
 th.checkbox {
   text-align: center;
@@ -1444,14 +1443,16 @@ tr.selected td {
   background: #ccc;
   border-color: #666;
   margin: 0 0.2em;
-  -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
   border-radius: 3px;
 }
 /* line 823, ../sass/components/_misc.scss */
 .progress .filled {
   background-color: #0072b9;
-  background-image: url('../images/progress.gif?1498845538');
+  background-image: url('../images/progress.gif?1499867826');
 }
 
 /**
@@ -1470,42 +1471,47 @@ tr.selected td {
 /* line 10, ../sass/components/_header.scss */
 .inner-header-wrapper .header__logo-image {
   max-height: 8em;
+  margin: 2em auto;
 }
 /* line 15, ../sass/components/_header.scss */
+.inner-header-wrapper .block-superfish {
+  margin-bottom: 0;
+}
+/* line 21, ../sass/components/_header.scss */
 .inner-header-wrapper > div {
   display: table-cell;
   vertical-align: middle;
 }
-/* line 19, ../sass/components/_header.scss */
+/* line 25, ../sass/components/_header.scss */
 .inner-header-wrapper .superfish-main-menu-header {
   text-align: right;
 }
-/* line 21, ../sass/components/_header.scss */
+/* line 27, ../sass/components/_header.scss */
 .inner-header-wrapper .superfish-main-menu-header ul.sf-menu {
   text-align: right;
   float: right;
 }
-/* line 24, ../sass/components/_header.scss */
+/* line 30, ../sass/components/_header.scss */
 .inner-header-wrapper .superfish-main-menu-header ul.sf-menu li {
   padding-left: 10px;
   padding-right: 10px;
 }
-/* line 27, ../sass/components/_header.scss */
+/* line 33, ../sass/components/_header.scss */
 .inner-header-wrapper .superfish-main-menu-header ul.sf-menu li a {
   text-decoration: none;
   color: #5b186a;
 }
-/* line 32, ../sass/components/_header.scss */
+/* line 38, ../sass/components/_header.scss */
 .inner-header-wrapper .superfish-main-menu-header ul.sf-menu li:not(:last-child) {
   border-right: 1px solid black;
 }
-/* line 36, ../sass/components/_header.scss */
+/* line 42, ../sass/components/_header.scss */
 .inner-header-wrapper .superfish-main-menu-header ul.sf-menu li:last-child {
   padding-right: 0px;
 }
 
 @media (max-width: 620px) {
-  /* line 45, ../sass-extensions/zen-grids/stylesheets/zen/_grids.scss */
+  /* line 46, ../sass-extensions/zen-grids/stylesheets/zen/_grids.scss */
   .inner-header-wrapper:before, .inner-header-wrapper:after {
     content: "";
     display: table;
@@ -1514,7 +1520,7 @@ tr.selected td {
   .inner-header-wrapper:after {
     clear: both;
   }
-  /* line 52, ../sass/components/_header.scss */
+  /* line 58, ../sass/components/_header.scss */
   .inner-header-wrapper .header-logo {
     float: left;
     width: 100%;
@@ -1529,11 +1535,11 @@ tr.selected td {
     word-wrap: break-word;
     text-align: center;
   }
-  /* line 55, ../sass/components/_header.scss */
+  /* line 61, ../sass/components/_header.scss */
   .inner-header-wrapper .header-logo #logo {
     float: none !important;
   }
-  /* line 59, ../sass/components/_header.scss */
+  /* line 65, ../sass/components/_header.scss */
   .inner-header-wrapper .region-header {
     clear: left;
     float: left;
@@ -1548,19 +1554,19 @@ tr.selected td {
     box-sizing: border-box;
     word-wrap: break-word;
   }
-  /* line 62, ../sass/components/_header.scss */
+  /* line 68, ../sass/components/_header.scss */
   .inner-header-wrapper .region-header .superfish-main-menu-header {
     text-align: center !important;
     padding-top: 20px;
   }
 
-  /* line 68, ../sass/components/_header.scss */
+  /* line 74, ../sass/components/_header.scss */
   .not-front #navigation .nav-inner-wrapper .block-islandora-solr {
     max-width: 100% !important;
     float: none !important;
   }
 
-  /* line 72, ../sass/components/_header.scss */
+  /* line 78, ../sass/components/_header.scss */
   .front #navigation .nav-inner-wrapper .block-islandora-solr {
     max-width: 100% !important;
     float: none !important;
@@ -1668,7 +1674,7 @@ footer .nav-inner-wrapper {
 .not-front #navigation .nav-inner-wrapper .block-islandora-solr #islandora-solr-simple-search-form #edit-simple #edit-submit {
   background-attachment: scroll;
   background-clip: border-box;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0);
   background-image: url("../images/mag_glass_icon.png?1443103967");
   background-origin: padding-box;
   background-position: center center;
@@ -1753,15 +1759,15 @@ footer .nav-inner-wrapper {
 }
 /* line 95, ../sass/components/_blocks.scss */
 .islandora-objects-display-switch ul.islandora-solr-display li a.display-bookmark, .islandora-objects-display-switch ul.links li a.display-bookmark, .islandora-basic-collection-display-switch ul.islandora-solr-display li a.display-bookmark, .islandora-basic-collection-display-switch ul.links li a.display-bookmark, #block-islandora-solr-sort ul.islandora-solr-display li a.display-bookmark, #block-islandora-solr-sort ul.links li a.display-bookmark, #block-islandora-solr-display-switch ul.islandora-solr-display li a.display-bookmark, #block-islandora-solr-display-switch ul.links li a.display-bookmark {
-  background-image: url('../images/display-bookmark.png?1498845538');
+  background-image: url('../images/display-bookmark.png?1499867826');
 }
 /* line 99, ../sass/components/_blocks.scss */
 .islandora-objects-display-switch ul.islandora-solr-display li a.display-default, .islandora-objects-display-switch ul.links li a.display-default, .islandora-basic-collection-display-switch ul.islandora-solr-display li a.display-default, .islandora-basic-collection-display-switch ul.links li a.display-default, #block-islandora-solr-sort ul.islandora-solr-display li a.display-default, #block-islandora-solr-sort ul.links li a.display-default, #block-islandora-solr-display-switch ul.islandora-solr-display li a.display-default, #block-islandora-solr-display-switch ul.links li a.display-default {
-  background-image: url('../images/display-grid-list.png?1498845538');
+  background-image: url('../images/display-grid-list.png?1499867826');
 }
 /* line 103, ../sass/components/_blocks.scss */
 .islandora-objects-display-switch ul.islandora-solr-display li a.display-grid, .islandora-objects-display-switch ul.links li a.display-grid, .islandora-basic-collection-display-switch ul.islandora-solr-display li a.display-grid, .islandora-basic-collection-display-switch ul.links li a.display-grid, #block-islandora-solr-sort ul.islandora-solr-display li a.display-grid, #block-islandora-solr-sort ul.links li a.display-grid, #block-islandora-solr-display-switch ul.islandora-solr-display li a.display-grid, #block-islandora-solr-display-switch ul.links li a.display-grid {
-  background-image: url('../images/display-grid.png?1498845538');
+  background-image: url('../images/display-grid.png?1499867826');
 }
 
 /* line 110, ../sass/components/_blocks.scss */
@@ -1809,7 +1815,7 @@ footer .nav-inner-wrapper {
 .front-search-wrapper .front-search-box #islandora-solr-simple-search-form #edit-simple #edit-submit {
   background-attachment: scroll;
   background-clip: border-box;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0);
   background-image: url("../images/mag_glass_icon.png?1443103967");
   background-origin: padding-box;
   background-position: center center;
@@ -1947,7 +1953,7 @@ ul.islandora-solr-facet > li > a {
 /**
 * Footer alternate layout
 **/
-/* line 45, ../sass-extensions/zen-grids/stylesheets/zen/_grids.scss */
+/* line 46, ../sass-extensions/zen-grids/stylesheets/zen/_grids.scss */
 .view-footer-view-alternative .view-content:before, .view-footer-view-alternative .view-content:after {
   content: "";
   display: table;
@@ -2088,12 +2094,12 @@ ul.islandora-solr-facet > li > a {
 
 /* line 90, ../sass/components/_islandora-object.scss */
 li a.islandora-view-grid, .islandora-basic-collection-display-switch li.first a {
-  background-image: url('../images/display-grid.png?1498845538');
+  background-image: url('../images/display-grid.png?1499867826');
 }
 
 /* line 95, ../sass/components/_islandora-object.scss */
 li a.islandora-view-list, .islandora-basic-collection-display-switch li.last a {
-  background-image: url('../images/display-grid-list.png?1498845538');
+  background-image: url('../images/display-grid-list.png?1499867826');
 }
 
 /* line 100, ../sass/components/_islandora-object.scss */
@@ -2260,7 +2266,7 @@ li a.islandora-view-list, .islandora-basic-collection-display-switch li.last a {
 
 /* line 90, ../sass/components/_views.scss */
 .sort-by-div-image-wrapper-outer {
-  background: url('../images/folder.png?1498845538') no-repeat center center;
+  background: url('../images/folder.png?1499867826') no-repeat center center;
   background-size: cover;
   width: 80px;
   height: 80px;
@@ -2333,7 +2339,7 @@ div.islandora ul {
  * @file
  * Basic view grid styling for the advanced search Layout.
  */
-/* line 45, ../sass-extensions/zen-grids/stylesheets/zen/_grids.scss */
+/* line 46, ../sass-extensions/zen-grids/stylesheets/zen/_grids.scss */
 #islandora-solr-advanced-terms > div:before, #islandora-solr-advanced-terms > div:after {
   content: "";
   display: table;
@@ -2396,7 +2402,7 @@ div.islandora ul {
   -webkit-transform: translateY(200%);
   -ms-transform: translateY(200%);
   transform: translateY(200%);
-  background: url('../images/add.png?1498845538');
+  background: url('../images/add.png?1499867826');
   background-repeat: no-repeat;
   width: 24px;
   height: 24px;
@@ -2421,7 +2427,7 @@ div.islandora ul {
   -webkit-transform: translateY(200%);
   -ms-transform: translateY(200%);
   transform: translateY(200%);
-  background: url('../images/rounded.png?1498845538');
+  background: url('../images/rounded.png?1499867826');
   background-repeat: no-repeat;
   width: 24px;
   height: 24px;
@@ -2462,7 +2468,7 @@ div.islandora ul {
   padding-top: 40px;
 }
 
-/* line 45, ../sass-extensions/zen-grids/stylesheets/zen/_grids.scss */
+/* line 46, ../sass-extensions/zen-grids/stylesheets/zen/_grids.scss */
 .section-advanced-search #content:before, .section-advanced-search #content:after {
   content: "";
   display: table;
@@ -2522,7 +2528,7 @@ div.islandora ul {
  * HTML5 display definitions
  */
 /* Correct `block` display not defined in IE 8/9. */
-/* line 23, ../sass/_normalize.scss */
+/* line 33, ../sass/_normalize.scss */
 article,
 aside,
 details,
@@ -2538,7 +2544,7 @@ summary {
 }
 
 /* Correct `inline-block` display not defined in IE 8/9. */
-/* line 38, ../sass/_normalize.scss */
+/* line 40, ../sass/_normalize.scss */
 audio,
 canvas,
 video {
@@ -2637,7 +2643,7 @@ a:focus {
 }
 
 /* Improve readability when focused and also mouse hovered in all browsers. */
-/* line 153, ../sass/_normalize.scss */
+/* line 154, ../sass/_normalize.scss */
 a:active,
 a:hover {
   outline: 0;
@@ -2653,7 +2659,7 @@ a:hover {
  * For more information, see http://24ways.org/2006/compose-to-a-vertical-rhythm
  */
 /* Set 1 unit of vertical rhythm on the top and bottom margin. */
-/* line 169, ../sass/_normalize.scss */
+/* line 170, ../sass/_normalize.scss */
 p,
 pre {
   margin: 1.5em 0;
@@ -2726,7 +2732,7 @@ abbr[title] {
 }
 
 /* Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome. */
-/* line 222, ../sass/_normalize.scss */
+/* line 223, ../sass/_normalize.scss */
 b,
 strong {
   font-weight: bold;
@@ -2741,8 +2747,8 @@ dfn {
 /* Address differences between Firefox and other browsers. */
 /* line 233, ../sass/_normalize.scss */
 hr {
-  -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0;
   border: 1px solid #666;
@@ -2758,7 +2764,7 @@ mark {
 }
 
 /* Correct font family set oddly in Safari 5 and Chrome. */
-/* line 248, ../sass/_normalize.scss */
+/* line 253, ../sass/_normalize.scss */
 code,
 kbd,
 pre,
@@ -2789,7 +2795,7 @@ small {
 }
 
 /* Prevent `sub` and `sup` affecting `line-height` in all browsers. */
-/* line 284, ../sass/_normalize.scss */
+/* line 285, ../sass/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -2811,7 +2817,7 @@ sub {
 /**
  * Lists
  */
-/* line 301, ../sass/_normalize.scss */
+/* line 304, ../sass/_normalize.scss */
 dl,
 menu,
 ol,
@@ -2820,7 +2826,7 @@ ul {
   margin: 1.5em 0;
 }
 
-/* line 310, ../sass/_normalize.scss */
+/* line 311, ../sass/_normalize.scss */
 ol ol,
 ol ul,
 ul ol,
@@ -2836,7 +2842,7 @@ dd {
 }
 
 /* Address paddings set differently in IE 6/7. */
-/* line 321, ../sass/_normalize.scss */
+/* line 323, ../sass/_normalize.scss */
 menu,
 ol,
 ul {
@@ -2883,17 +2889,17 @@ fieldset {
   margin: 0 2px;
   /* Apply borders and padding that keep the vertical rhythm. */
   border-color: #c0c0c0;
-  border-top-width: 0.0625em;
   border-top-style: solid;
+  border-top-width: 0.0625em;
   padding-top: 0.4625em;
-  border-bottom-width: 0.0625em;
   border-bottom-style: solid;
+  border-bottom-width: 0.0625em;
   padding-bottom: 0.9125em;
-  border-left-width: 0.0625em;
   border-left-style: solid;
+  border-left-width: 0.0625em;
   padding-left: 0.9125em;
-  border-right-width: 0.0625em;
   border-right-style: solid;
+  border-right-width: 0.0625em;
   padding-right: 0.9125em;
 }
 
@@ -2917,7 +2923,7 @@ legend {
  * 4. Improve appearance and consistency with IE 6/7.
  * 5. Keep form elements constrained in their containers.
  */
-/* line 413, ../sass/_normalize.scss */
+/* line 416, ../sass/_normalize.scss */
 button,
 input,
 select,
@@ -2930,8 +2936,8 @@ textarea {
   /* 3 */
   max-width: 100%;
   /* 5 */
-  -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
   /* 5 */
 }
@@ -2940,7 +2946,7 @@ textarea {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 432, ../sass/_normalize.scss */
+/* line 433, ../sass/_normalize.scss */
 button,
 input {
   line-height: normal;
@@ -2952,7 +2958,7 @@ input {
  * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
  * Correct `select` style inheritance in Firefox 4+ and Opera.
  */
-/* line 443, ../sass/_normalize.scss */
+/* line 444, ../sass/_normalize.scss */
 button,
 select {
   text-transform: none;
@@ -2967,7 +2973,7 @@ select {
  * 4. Remove inner spacing in IE 7 without affecting normal text inputs.
  *    Known issue: inner spacing remains in IE 6.
  */
-/* line 457, ../sass/_normalize.scss */
+/* line 460, ../sass/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -2981,7 +2987,7 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-/* line 471, ../sass/_normalize.scss */
+/* line 472, ../sass/_normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
@@ -2993,11 +2999,11 @@ html input[disabled] {
  * 3. Remove excess padding in IE 7.
  *    Known issue: excess padding remains in IE 6.
  */
-/* line 482, ../sass/_normalize.scss */
+/* line 483, ../sass/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
-  -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
   /* 1 */
   padding: 0;
@@ -3013,8 +3019,8 @@ input[type="radio"] {
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
-  -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
   box-sizing: content-box;
   /* 2 */
 }
@@ -3023,14 +3029,14 @@ input[type="search"] {
  * Remove inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
-/* line 506, ../sass/_normalize.scss */
+/* line 507, ../sass/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
 /* Remove inner padding and border in Firefox 4+. */
-/* line 512, ../sass/_normalize.scss */
+/* line 513, ../sass/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -3083,7 +3089,7 @@ table {
  */
 @media print {
   /* Underline all links. */
-  /* line 15, ../sass/_print.scss */
+  /* line 16, ../sass/_print.scss */
   a:link,
   a:visited {
     text-decoration: underline !important;
@@ -3107,7 +3113,7 @@ table {
     font-weight: normal;
     font-size: 16px;
   }
-  /* line 34, ../sass/_print.scss */
+  /* line 35, ../sass/_print.scss */
   #content a[href^="javascript:"]:after,
   #content a[href^="#"]:after {
     content: "";
@@ -3127,7 +3133,7 @@ table {
   }
 
   /* Turn off any background colors or images. */
-  /* line 54, ../sass/_print.scss */
+  /* line 57, ../sass/_print.scss */
   body,
   #page,
   #main,
@@ -3138,7 +3144,7 @@ table {
   }
 
   /* Hide sidebars and nav elements. */
-  /* line 64, ../sass/_print.scss */
+  /* line 77, ../sass/_print.scss */
   #skip-link,
   #toolbar,
   #navigation,
