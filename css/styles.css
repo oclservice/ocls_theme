@@ -1654,6 +1654,16 @@ footer .nav-inner-wrapper {
   width: 100%;
 }
 
+/* line 51, ../sass/components/_page.scss */
+.inner-header-wrapper .block-superfish {
+  float: right;
+}
+
+/* line 55, ../sass/components/_page.scss */
+#block-superfish-1 ul.menu li {
+  padding: 5px 10px;
+}
+
 /**
 *  Basic Block Styling.
 **/
