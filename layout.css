@@ -252,19 +252,19 @@ aside {
   /**
    * The layout when there is only one sidebar, the right one.
    */
-  /* line 210, ../sass/layouts/_responsive.scss */
+  /* line 132, ../sass/layouts/_responsive.scss */
   .sidebar-second {
-    /* Span 4 columns, starting in 1st column from left. */
-    /* Span 1 column, starting in 5th column from left. */
+    /* Span 2 columns, starting in 1st column from left. */
+    /* Span 1 column, starting in 3rd column from left. */
   }
-  /* line 212, ../sass/layouts/_responsive.scss */
+  /* line 134, ../sass/layouts/_responsive.scss */
   .sidebar-second #content {
     float: left;
-    width: 20%;
-    margin-left: 80%;
-    margin-right: -100%;
+    width: 80%;
+    margin-left: 0%;
+    margin-right: -80%;
   }
-  /* line 217, ../sass/layouts/_responsive.scss */
+  /* line 139, ../sass/layouts/_responsive.scss */
   .sidebar-second .region-sidebar-second {
     float: left;
     width: 20%;

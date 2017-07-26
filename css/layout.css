@@ -260,9 +260,9 @@ aside {
   /* line 212, ../sass/layouts/_responsive.scss */
   .sidebar-second #content {
     float: left;
-    width: 20%;
-    margin-left: 80%;
-    margin-right: -100%;
+    width: 80%;
+    margin-left: 0%;
+    margin-right: 20%;
   }
   /* line 217, ../sass/layouts/_responsive.scss */
   .sidebar-second .region-sidebar-second {
