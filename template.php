@@ -149,24 +149,6 @@ function ocls_theme_form_alter(&$form, &$form_state, $form_id){
   }
 }
 
-/**
- * Implements hook_form_alter().
- */
-function ocls_theme_form_islandora_solr_advanced_search_form_alter(&$form, &$form_state, $form_id) {
-  $text = '<div class="field-item even" property="content:encoded"><h3> Search Tips</h3>
-<ul><li>Click the + button to add more fields to your search.</li>
-<li>Use <b>AND</b> between terms to find items with <b>all</b> the terms.</li>
-<li>Use <b>OR</b> between terms to find items with <b>any</b> the terms.</li>
-<li>When using the Date search, use <b>*</b> as a wildcard. For example, use <b>*1964*</b> to find everything in 1964 or <b>*196*</b> to find everything in the 1960s.
-</li><li>Select the Name/Creator field to search for items authored or created by an individual.</li>
-<li>Select the Subjects field to search for items about an individual.</li>
-<li>Select the Full Text field to search within book or newspaper items.</li>
-</ul></div>';
-  $form['help_text'] = array(
-    '#markup' => "<div class='advanced-search-helper-text'>" . $text . "</div>",
-  );
-}
-
 /* Convert hexdec color string to rgb(a) string */
 
 function ocls_theme_hex2rgba($color, $opacity = false) {
