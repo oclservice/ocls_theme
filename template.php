@@ -8,6 +8,34 @@
  */
 
 /**
+ * Gets a string describing which multi-site the $base_url is referring to.
+ *
+ * @return string
+ *   A string describing which multi-site the $base_url is referring to,
+ *   if $base_url does not contain one of the
+ *   supported site names, then FALSE is returned.
+ */
+function ocls_theme_get_multi_site() {
+  global $base_url;
+  $multi_sites = array(
+    'centennial',
+    'conestoga',
+    'fleming',
+    'georgian',
+    'loyalist',
+    'seneca',
+  );
+  foreach ($multi_sites as $site) {
+    if (strpos($base_url, $site) !== FALSE) {
+      return $site;
+    }
+  }
+  // To prevent potential problems in supporting a theme without a name
+  // the default is assumed to always be CORE OCLS (College Object Repository).
+  return 'ocls';
+}
+
+/**
  * Implements hook_preprocess().
  */
 function ocls_theme_preprocess_islandora_solr_metadata_display(array &$variables) {
@@ -78,6 +106,10 @@ function ocls_theme_preprocess_html(&$variables) {
     $block = islandora_solr_block_view('simple');
     $variables['islandora_front_page_search'] = render($block['content']);
   }
+
+  // Add a CSS class to the body element, so we can tell what site we are on.
+  $site = ocls_theme_get_multi_site();
+  $variables['classes_array'][] = $site;
 }
 
 /**

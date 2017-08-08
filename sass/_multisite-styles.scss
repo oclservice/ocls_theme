@@ -1,0 +1,163 @@
+//
+// Multisite Styles
+//
+
+body {
+  .admin-menu-icon {
+    max-width: 1.85em;
+  }
+
+  // CSS Customizations for use with Centennial College
+  &.centennial {
+  // General body styles
+    a {
+      color: #373737;
+      text-decoration: none;
+    }
+
+    a:hover{
+      color: #d4df38;
+    }
+
+    a:visited{
+      color: #373737;
+    }
+
+  // Header styles
+   .header__logo-image {
+      width: 200px;
+    }
+
+    .header {
+      a {
+        color: #373737;
+        text-decoration: none;
+      }
+
+      a:hover{
+        color: white !important;
+      }
+
+      a:visited{
+        color: #373737;
+      }
+    }
+
+    // Front Search box styles
+    #islandora-solr-simple-search-form {
+      a {
+        color: white;
+        text-decoration: none;
+      }
+
+      a:hover{
+        color: #d4df38 !important;
+      }
+
+      a:visited{
+        color: #d4df38;
+      }
+    }
+  }
+
+  &.conestoga {
+    .header {
+      a {
+        color: white;
+        text-decoration: none;
+      }
+
+      a:hover{
+        color: white !important;
+      }
+
+      a:visited{
+        color: white;
+      }
+    }
+
+    #footer {
+      color: white;
+    }
+  }
+
+  &.fleming {
+    .header {
+      .header__logo-image {
+        margin: 0;
+      }
+
+      a {
+        color: #284e36;
+        text-decoration: none;
+      }
+
+      a:hover{
+        color: #284e36 !important;
+      }
+
+      a:visited{
+        color: #284e36;
+      }
+    }
+
+    #footer {
+      color: rgba(255, 255, 255, 0.467);
+
+      img {
+        max-width: 300px;
+      }
+    }
+  }
+
+  &.georgian {
+    .header {
+      img {
+        max-height: 80px;
+      }
+    }
+
+    #footer {
+      color: white;
+    }
+  }
+
+  &.loyalist {
+    font-family: "Myriad Pro",Tahoma,"DejaVu Sans",sans-serif;
+
+    .header__logo-image {
+      margin: 0.5em auto;
+    }
+
+    .footer-view-primary {
+      color: white;
+
+      img {
+        max-height: 8em;
+      }
+    }
+  }
+
+  &.seneca {
+    font-family: 'Open sans';
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-weight: 400;
+    }
+
+    .header__logo-image {
+      max-width: 20em;
+    }
+
+    .footer-view-primary {
+      img {
+        max-width: 20em;
+      }
+    }
+  }
+}
