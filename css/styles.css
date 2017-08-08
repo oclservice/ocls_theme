@@ -1452,7 +1452,7 @@ tr.selected td {
 /* line 823, ../sass/components/_misc.scss */
 .progress .filled {
   background-color: #0072b9;
-  background-image: url('../images/progress.gif?1499867826');
+  background-image: url('../images/progress.gif?1502116893');
 }
 
 /**
@@ -1769,15 +1769,15 @@ footer .nav-inner-wrapper {
 }
 /* line 95, ../sass/components/_blocks.scss */
 .islandora-objects-display-switch ul.islandora-solr-display li a.display-bookmark, .islandora-objects-display-switch ul.links li a.display-bookmark, .islandora-basic-collection-display-switch ul.islandora-solr-display li a.display-bookmark, .islandora-basic-collection-display-switch ul.links li a.display-bookmark, #block-islandora-solr-sort ul.islandora-solr-display li a.display-bookmark, #block-islandora-solr-sort ul.links li a.display-bookmark, #block-islandora-solr-display-switch ul.islandora-solr-display li a.display-bookmark, #block-islandora-solr-display-switch ul.links li a.display-bookmark {
-  background-image: url('../images/display-bookmark.png?1499867826');
+  background-image: url('../images/display-bookmark.png?1502116893');
 }
 /* line 99, ../sass/components/_blocks.scss */
 .islandora-objects-display-switch ul.islandora-solr-display li a.display-default, .islandora-objects-display-switch ul.links li a.display-default, .islandora-basic-collection-display-switch ul.islandora-solr-display li a.display-default, .islandora-basic-collection-display-switch ul.links li a.display-default, #block-islandora-solr-sort ul.islandora-solr-display li a.display-default, #block-islandora-solr-sort ul.links li a.display-default, #block-islandora-solr-display-switch ul.islandora-solr-display li a.display-default, #block-islandora-solr-display-switch ul.links li a.display-default {
-  background-image: url('../images/display-grid-list.png?1499867826');
+  background-image: url('../images/display-grid-list.png?1502116893');
 }
 /* line 103, ../sass/components/_blocks.scss */
 .islandora-objects-display-switch ul.islandora-solr-display li a.display-grid, .islandora-objects-display-switch ul.links li a.display-grid, .islandora-basic-collection-display-switch ul.islandora-solr-display li a.display-grid, .islandora-basic-collection-display-switch ul.links li a.display-grid, #block-islandora-solr-sort ul.islandora-solr-display li a.display-grid, #block-islandora-solr-sort ul.links li a.display-grid, #block-islandora-solr-display-switch ul.islandora-solr-display li a.display-grid, #block-islandora-solr-display-switch ul.links li a.display-grid {
-  background-image: url('../images/display-grid.png?1499867826');
+  background-image: url('../images/display-grid.png?1502116893');
 }
 
 /* line 110, ../sass/components/_blocks.scss */
@@ -1944,17 +1944,20 @@ ul.islandora-solr-facet > li > a {
 /**
 * Footer primary layout
 **/
-/* line 7, ../sass/components/_footer_primary_layout.scss */
-.view-footer-view-primary .views-row {
+/* line 8, ../sass/components/_footer_primary_layout.scss */
+.view-footer-view-primary .views-row,
+.footer-view-primary .views-row {
   display: table;
 }
-/* line 9, ../sass/components/_footer_primary_layout.scss */
-.view-footer-view-primary .views-row .views-field-field-image-block {
+/* line 10, ../sass/components/_footer_primary_layout.scss */
+.view-footer-view-primary .views-row .views-field-field-image-block,
+.footer-view-primary .views-row .views-field-field-image-block {
   display: table-cell;
   vertical-align: middle;
 }
-/* line 13, ../sass/components/_footer_primary_layout.scss */
-.view-footer-view-primary .views-row .views-field-body {
+/* line 14, ../sass/components/_footer_primary_layout.scss */
+.view-footer-view-primary .views-row .views-field-body,
+.footer-view-primary .views-row .views-field-body {
   display: table-cell;
   vertical-align: middle;
   padding: 10px;
@@ -2104,12 +2107,12 @@ ul.islandora-solr-facet > li > a {
 
 /* line 90, ../sass/components/_islandora-object.scss */
 li a.islandora-view-grid, .islandora-basic-collection-display-switch li.first a {
-  background-image: url('../images/display-grid.png?1499867826');
+  background-image: url('../images/display-grid.png?1502116893');
 }
 
 /* line 95, ../sass/components/_islandora-object.scss */
 li a.islandora-view-list, .islandora-basic-collection-display-switch li.last a {
-  background-image: url('../images/display-grid-list.png?1499867826');
+  background-image: url('../images/display-grid-list.png?1502116893');
 }
 
 /* line 100, ../sass/components/_islandora-object.scss */
@@ -2276,7 +2279,7 @@ li a.islandora-view-list, .islandora-basic-collection-display-switch li.last a {
 
 /* line 90, ../sass/components/_views.scss */
 .sort-by-div-image-wrapper-outer {
-  background: url('../images/folder.png?1499867826') no-repeat center center;
+  background: url('../images/folder.png?1502116893') no-repeat center center;
   background-size: cover;
   width: 80px;
   height: 80px;
@@ -2412,7 +2415,7 @@ div.islandora ul {
   -webkit-transform: translateY(200%);
   -ms-transform: translateY(200%);
   transform: translateY(200%);
-  background: url('../images/add.png?1499867826');
+  background: url('../images/add.png?1502116893');
   background-repeat: no-repeat;
   width: 24px;
   height: 24px;
@@ -2437,7 +2440,7 @@ div.islandora ul {
   -webkit-transform: translateY(200%);
   -ms-transform: translateY(200%);
   transform: translateY(200%);
-  background: url('../images/rounded.png?1499867826');
+  background: url('../images/rounded.png?1502116893');
   background-repeat: no-repeat;
   width: 24px;
   height: 24px;
@@ -3085,6 +3088,141 @@ table {
   /* Add vertical rhythm margins. */
   margin-top: 1.5em;
   margin-bottom: 1.5em;
+}
+
+/* line 6, ../sass/_multisite-styles.scss */
+body .admin-menu-icon {
+  max-width: 1.85em;
+}
+/* line 13, ../sass/_multisite-styles.scss */
+body.centennial a {
+  color: #373737;
+  text-decoration: none;
+}
+/* line 18, ../sass/_multisite-styles.scss */
+body.centennial a:hover {
+  color: #d4df38;
+}
+/* line 22, ../sass/_multisite-styles.scss */
+body.centennial a:visited {
+  color: #373737;
+}
+/* line 27, ../sass/_multisite-styles.scss */
+body.centennial .header__logo-image {
+  width: 200px;
+}
+/* line 32, ../sass/_multisite-styles.scss */
+body.centennial .header a {
+  color: #373737;
+  text-decoration: none;
+}
+/* line 37, ../sass/_multisite-styles.scss */
+body.centennial .header a:hover {
+  color: white !important;
+}
+/* line 41, ../sass/_multisite-styles.scss */
+body.centennial .header a:visited {
+  color: #373737;
+}
+/* line 48, ../sass/_multisite-styles.scss */
+body.centennial #islandora-solr-simple-search-form a {
+  color: white;
+  text-decoration: none;
+}
+/* line 53, ../sass/_multisite-styles.scss */
+body.centennial #islandora-solr-simple-search-form a:hover {
+  color: #d4df38 !important;
+}
+/* line 57, ../sass/_multisite-styles.scss */
+body.centennial #islandora-solr-simple-search-form a:visited {
+  color: #d4df38;
+}
+/* line 65, ../sass/_multisite-styles.scss */
+body.conestoga .header a {
+  color: white;
+  text-decoration: none;
+}
+/* line 70, ../sass/_multisite-styles.scss */
+body.conestoga .header a:hover {
+  color: white !important;
+}
+/* line 74, ../sass/_multisite-styles.scss */
+body.conestoga .header a:visited {
+  color: white;
+}
+/* line 79, ../sass/_multisite-styles.scss */
+body.conestoga #footer {
+  color: white;
+}
+/* line 86, ../sass/_multisite-styles.scss */
+body.fleming .header .header__logo-image {
+  margin: 0;
+}
+/* line 90, ../sass/_multisite-styles.scss */
+body.fleming .header a {
+  color: #284e36;
+  text-decoration: none;
+}
+/* line 95, ../sass/_multisite-styles.scss */
+body.fleming .header a:hover {
+  color: #284e36 !important;
+}
+/* line 99, ../sass/_multisite-styles.scss */
+body.fleming .header a:visited {
+  color: #284e36;
+}
+/* line 104, ../sass/_multisite-styles.scss */
+body.fleming #footer {
+  color: rgba(255, 255, 255, 0.467);
+}
+/* line 107, ../sass/_multisite-styles.scss */
+body.fleming #footer img {
+  max-width: 300px;
+}
+/* line 115, ../sass/_multisite-styles.scss */
+body.georgian .header img {
+  max-height: 80px;
+}
+/* line 120, ../sass/_multisite-styles.scss */
+body.georgian #footer {
+  color: white;
+}
+/* line 125, ../sass/_multisite-styles.scss */
+body.loyalist {
+  font-family: "Myriad Pro",Tahoma,"DejaVu Sans",sans-serif;
+}
+/* line 128, ../sass/_multisite-styles.scss */
+body.loyalist .header__logo-image {
+  margin: 0.5em auto;
+}
+/* line 132, ../sass/_multisite-styles.scss */
+body.loyalist .footer-view-primary {
+  color: white;
+}
+/* line 135, ../sass/_multisite-styles.scss */
+body.loyalist .footer-view-primary img {
+  max-height: 8em;
+}
+/* line 141, ../sass/_multisite-styles.scss */
+body.seneca {
+  font-family: 'Open sans';
+}
+/* line 149, ../sass/_multisite-styles.scss */
+body.seneca h1,
+body.seneca h2,
+body.seneca h3,
+body.seneca h4,
+body.seneca h5,
+body.seneca h6 {
+  font-weight: 400;
+}
+/* line 153, ../sass/_multisite-styles.scss */
+body.seneca .header__logo-image {
+  max-width: 20em;
+}
+/* line 158, ../sass/_multisite-styles.scss */
+body.seneca .footer-view-primary img {
+  max-width: 20em;
 }
 
 /**

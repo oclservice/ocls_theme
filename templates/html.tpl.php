@@ -25,6 +25,7 @@
   <meta http-equiv="cleartype" content="on">
 
   <?php print $styles; ?>
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
   <?php print $scripts; ?>
   <?php if ($add_html5_shim and !$add_respond_js): ?>
     <!--[if lt IE 9]>

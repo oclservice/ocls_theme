@@ -4,7 +4,8 @@
 
 @import "zen";
 
-.view-footer-view-primary .views-row {
+.view-footer-view-primary .views-row,
+.footer-view-primary .views-row {
   display: table;
   .views-field-field-image-block{
     display: table-cell;
