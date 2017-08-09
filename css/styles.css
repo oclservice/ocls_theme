@@ -3225,6 +3225,16 @@ body.seneca .footer-view-primary img {
   max-width: 20em;
 }
 
+/* line 165, ../sass/_multisite-styles.scss */
+.view-partner-institutions {
+  text-align: center;
+}
+/* line 168, ../sass/_multisite-styles.scss */
+.view-partner-institutions .views-field {
+  box-sizing: border-box;
+  padding: 15px;
+}
+
 /**
  * @file
  * Print styling
