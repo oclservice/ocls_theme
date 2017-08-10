@@ -162,11 +162,21 @@ body {
   }
 }
 
-.view-partner-institutions {
+.view-partner-institutions,
+.view-ocls-repositories {
   text-align: center;
 
-  .views-field {
-    box-sizing: border-box;
-    padding: 15px;
+  table {
+    width: 100%;
+    table-layout: fixed;
+
+    .views-field {
+      box-sizing: border-box;
+      padding: 15px;
+
+      img {
+        max-width: 10em;
+      }
+    }
   }
 }

@@ -3225,14 +3225,27 @@ body.seneca .footer-view-primary img {
   max-width: 20em;
 }
 
-/* line 165, ../sass/_multisite-styles.scss */
-.view-partner-institutions {
+/* line 166, ../sass/_multisite-styles.scss */
+.view-partner-institutions,
+.view-ocls-repositories {
   text-align: center;
 }
-/* line 168, ../sass/_multisite-styles.scss */
-.view-partner-institutions .views-field {
+/* line 169, ../sass/_multisite-styles.scss */
+.view-partner-institutions table,
+.view-ocls-repositories table {
+  width: 100%;
+  table-layout: fixed;
+}
+/* line 173, ../sass/_multisite-styles.scss */
+.view-partner-institutions table .views-field,
+.view-ocls-repositories table .views-field {
   box-sizing: border-box;
   padding: 15px;
+}
+/* line 177, ../sass/_multisite-styles.scss */
+.view-partner-institutions table .views-field img,
+.view-ocls-repositories table .views-field img {
+  max-width: 10em;
 }
 
 /**
