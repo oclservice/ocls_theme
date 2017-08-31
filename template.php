@@ -38,6 +38,18 @@ function ocls_theme_get_multi_site() {
 /**
  * Implements hook_preprocess().
  */
+function ocls_theme_preprocess_islandora_compound_prev_next(&$variables) {
+  // Prevent the parent thumbnail from displaying in the compound object
+  // Navigation block.
+  $variables['parent_tn'] = "herbie derbie do";
+  if (isset($variables['parent_tn'])) {
+    $variables['parent_tn'] = NULL;
+  }
+}
+
+/**
+ * Implements hook_preprocess().
+ */
 function ocls_theme_preprocess_islandora_solr_metadata_display(array &$variables) {
   // Retrieve an objects search result, hiding it on collection pages.
   if (theme_get_setting('ocls_show_basic_record') > 0 &&

@@ -1452,7 +1452,7 @@ tr.selected td {
 /* line 823, ../sass/components/_misc.scss */
 .progress .filled {
   background-color: #0072b9;
-  background-image: url('../images/progress.gif?1502116893');
+  background-image: url('../images/progress.gif?1502737859');
 }
 
 /**
@@ -1769,15 +1769,15 @@ footer .nav-inner-wrapper {
 }
 /* line 95, ../sass/components/_blocks.scss */
 .islandora-objects-display-switch ul.islandora-solr-display li a.display-bookmark, .islandora-objects-display-switch ul.links li a.display-bookmark, .islandora-basic-collection-display-switch ul.islandora-solr-display li a.display-bookmark, .islandora-basic-collection-display-switch ul.links li a.display-bookmark, #block-islandora-solr-sort ul.islandora-solr-display li a.display-bookmark, #block-islandora-solr-sort ul.links li a.display-bookmark, #block-islandora-solr-display-switch ul.islandora-solr-display li a.display-bookmark, #block-islandora-solr-display-switch ul.links li a.display-bookmark {
-  background-image: url('../images/display-bookmark.png?1502116893');
+  background-image: url('../images/display-bookmark.png?1502737859');
 }
 /* line 99, ../sass/components/_blocks.scss */
 .islandora-objects-display-switch ul.islandora-solr-display li a.display-default, .islandora-objects-display-switch ul.links li a.display-default, .islandora-basic-collection-display-switch ul.islandora-solr-display li a.display-default, .islandora-basic-collection-display-switch ul.links li a.display-default, #block-islandora-solr-sort ul.islandora-solr-display li a.display-default, #block-islandora-solr-sort ul.links li a.display-default, #block-islandora-solr-display-switch ul.islandora-solr-display li a.display-default, #block-islandora-solr-display-switch ul.links li a.display-default {
-  background-image: url('../images/display-grid-list.png?1502116893');
+  background-image: url('../images/display-grid-list.png?1502737859');
 }
 /* line 103, ../sass/components/_blocks.scss */
 .islandora-objects-display-switch ul.islandora-solr-display li a.display-grid, .islandora-objects-display-switch ul.links li a.display-grid, .islandora-basic-collection-display-switch ul.islandora-solr-display li a.display-grid, .islandora-basic-collection-display-switch ul.links li a.display-grid, #block-islandora-solr-sort ul.islandora-solr-display li a.display-grid, #block-islandora-solr-sort ul.links li a.display-grid, #block-islandora-solr-display-switch ul.islandora-solr-display li a.display-grid, #block-islandora-solr-display-switch ul.links li a.display-grid {
-  background-image: url('../images/display-grid.png?1502116893');
+  background-image: url('../images/display-grid.png?1502737859');
 }
 
 /* line 110, ../sass/components/_blocks.scss */
@@ -2107,12 +2107,12 @@ ul.islandora-solr-facet > li > a {
 
 /* line 90, ../sass/components/_islandora-object.scss */
 li a.islandora-view-grid, .islandora-basic-collection-display-switch li.first a {
-  background-image: url('../images/display-grid.png?1502116893');
+  background-image: url('../images/display-grid.png?1502737859');
 }
 
 /* line 95, ../sass/components/_islandora-object.scss */
 li a.islandora-view-list, .islandora-basic-collection-display-switch li.last a {
-  background-image: url('../images/display-grid-list.png?1502116893');
+  background-image: url('../images/display-grid-list.png?1502737859');
 }
 
 /* line 100, ../sass/components/_islandora-object.scss */
@@ -2279,7 +2279,7 @@ li a.islandora-view-list, .islandora-basic-collection-display-switch li.last a {
 
 /* line 90, ../sass/components/_views.scss */
 .sort-by-div-image-wrapper-outer {
-  background: url('../images/folder.png?1502116893') no-repeat center center;
+  background: url('../images/folder.png?1502737859') no-repeat center center;
   background-size: cover;
   width: 80px;
   height: 80px;
@@ -2415,7 +2415,7 @@ div.islandora ul {
   -webkit-transform: translateY(200%);
   -ms-transform: translateY(200%);
   transform: translateY(200%);
-  background: url('../images/add.png?1502116893');
+  background: url('../images/add.png?1502737859');
   background-repeat: no-repeat;
   width: 24px;
   height: 24px;
@@ -2440,7 +2440,7 @@ div.islandora ul {
   -webkit-transform: translateY(200%);
   -ms-transform: translateY(200%);
   transform: translateY(200%);
-  background: url('../images/rounded.png?1502116893');
+  background: url('../images/rounded.png?1502737859');
   background-repeat: no-repeat;
   width: 24px;
   height: 24px;
