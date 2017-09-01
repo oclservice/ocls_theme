@@ -1681,7 +1681,7 @@ footer .nav-inner-wrapper {
   text-align: right;
 }
 /* line 13, ../sass/components/_blocks.scss */
-.not-front #navigation .nav-inner-wrapper .block-islandora-solr #islandora-solr-simple-search-form #edit-simple #edit-submit {
+.not-front #navigation .nav-inner-wrapper .block-islandora-solr #islandora-solr-simple-search-form #edit-simple .form-submit {
   background-attachment: scroll;
   background-clip: border-box;
   background-color: rgba(0, 0, 0, 0);
@@ -1822,7 +1822,7 @@ footer .nav-inner-wrapper {
   padding: 20px;
 }
 /* line 143, ../sass/components/_blocks.scss */
-.front-search-wrapper .front-search-box #islandora-solr-simple-search-form #edit-simple #edit-submit {
+.front-search-wrapper .front-search-box #islandora-solr-simple-search-form #edit-simple .form-submit {
   background-attachment: scroll;
   background-clip: border-box;
   background-color: rgba(0, 0, 0, 0);

@@ -10,7 +10,7 @@
       box-sizing: border-box;
       #edit-simple{
         text-align: right;
-        #edit-submit{
+        .form-submit {
           background-attachment: scroll;
           background-clip: border-box;
           background-color: rgba(0, 0, 0, 0);
@@ -140,7 +140,7 @@
       box-sizing: border-box;
       padding: 20px;
       #edit-simple{
-        #edit-submit{
+        .form-submit{
           background-attachment: scroll;
           background-clip: border-box;
           background-color: rgba(0, 0, 0, 0);
