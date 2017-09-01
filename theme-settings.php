@@ -91,14 +91,4 @@ function ocls_theme_form_system_theme_settings_alter(&$form, &$form_state, $form
     '#default_value' => theme_get_setting('ocls_meta_des'),
     '#description' => t("The label used in place of 'Descriptive Metadata' in metadata display context. Defaults to 'Description'"),
   );
-  $form['ocls_theme_custom']['ocls_theme_front_background']['ocls_collection_items_details'] = array(
-    '#type' => 'select',
-    '#title' => t('Enable configurable list view Metadata'),
-    '#options' => array(
-      0 => t('No'),
-      1 => t('Yes'),
-    ),
-    '#default_value' => theme_get_setting('ocls_collection_items_details'),
-    '#description' => t("Enable the use of 'Collection Item Details View', embedded in the list view, allowing for dynamic Metadata display"),
-  );
 }
