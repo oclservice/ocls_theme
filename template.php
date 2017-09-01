@@ -41,7 +41,6 @@ function ocls_theme_get_multi_site() {
 function ocls_theme_preprocess_islandora_compound_prev_next(&$variables) {
   // Prevent the parent thumbnail from displaying in the compound object
   // Navigation block.
-  $variables['parent_tn'] = "herbie derbie do";
   if (isset($variables['parent_tn'])) {
     $variables['parent_tn'] = NULL;
   }
