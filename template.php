@@ -47,6 +47,14 @@ function ocls_theme_preprocess_islandora_compound_prev_next(&$variables) {
 }
 
 /**
+ * Implements hook_form_alter().
+ */
+function ocls_theme_form_user_login_alter(&$form, &$form_id) {
+  // Add a horizontal rule beneath the login button.
+  $form['actions']['submit']['#suffix'] = "<hr>";
+}
+
+/**
  * Implements hook_preprocess().
  */
 function ocls_theme_preprocess_islandora_solr_metadata_display(array &$variables) {
