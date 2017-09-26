@@ -1739,6 +1739,7 @@ footer .nav-inner-wrapper {
   border-top-width: 1px;
   font-style: italic;
   line-height: 30px;
+  height: 33px;
   margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
@@ -1747,12 +1748,12 @@ footer .nav-inner-wrapper {
   text-align: left;
 }
 
-/* line 75, ../sass/components/_blocks.scss */
+/* line 76, ../sass/components/_blocks.scss */
 .front-description-wrapper {
   text-align: center;
 }
 
-/* line 79, ../sass/components/_blocks.scss */
+/* line 80, ../sass/components/_blocks.scss */
 .islandora-objects-display-switch ul.islandora-solr-display li a.display-bookmark, .islandora-objects-display-switch ul.links li a.display-bookmark, .islandora-basic-collection-display-switch ul.islandora-solr-display li a.display-bookmark, .islandora-basic-collection-display-switch ul.links li a.display-bookmark, #block-islandora-solr-sort ul.islandora-solr-display li a.display-bookmark, #block-islandora-solr-sort ul.links li a.display-bookmark, #block-islandora-solr-display-switch ul.islandora-solr-display li a.display-bookmark, #block-islandora-solr-display-switch ul.links li a.display-bookmark, .islandora-objects-display-switch ul.islandora-solr-display li a.display-default, .islandora-objects-display-switch ul.links li a.display-default, .islandora-basic-collection-display-switch ul.islandora-solr-display li a.display-default, .islandora-basic-collection-display-switch ul.links li a.display-default, #block-islandora-solr-sort ul.islandora-solr-display li a.display-default, #block-islandora-solr-sort ul.links li a.display-default, #block-islandora-solr-display-switch ul.islandora-solr-display li a.display-default, #block-islandora-solr-display-switch ul.links li a.display-default, .islandora-objects-display-switch ul.islandora-solr-display li a.display-grid, .islandora-objects-display-switch ul.links li a.display-grid, .islandora-basic-collection-display-switch ul.islandora-solr-display li a.display-grid, .islandora-basic-collection-display-switch ul.links li a.display-grid, #block-islandora-solr-sort ul.islandora-solr-display li a.display-grid, #block-islandora-solr-sort ul.links li a.display-grid, #block-islandora-solr-display-switch ul.islandora-solr-display li a.display-grid, #block-islandora-solr-display-switch ul.links li a.display-grid, li a.islandora-view-grid, .islandora-basic-collection-display-switch li.first a, li a.islandora-view-list, .islandora-basic-collection-display-switch li.last a {
   background-repeat: no-repeat;
   line-height: 0;
@@ -1764,70 +1765,70 @@ footer .nav-inner-wrapper {
   width: 30px;
 }
 
-/* line 90, ../sass/components/_blocks.scss */
+/* line 91, ../sass/components/_blocks.scss */
 .islandora-objects-display-switch, .islandora-basic-collection-display-switch, #block-islandora-solr-sort, #block-islandora-solr-display-switch {
   width: 100%;
 }
-/* line 92, ../sass/components/_blocks.scss */
+/* line 93, ../sass/components/_blocks.scss */
 .islandora-objects-display-switch ul.islandora-solr-display, .islandora-objects-display-switch ul.links, .islandora-basic-collection-display-switch ul.islandora-solr-display, .islandora-basic-collection-display-switch ul.links, #block-islandora-solr-sort ul.islandora-solr-display, #block-islandora-solr-sort ul.links, #block-islandora-solr-display-switch ul.islandora-solr-display, #block-islandora-solr-display-switch ul.links {
   margin-top: 5px;
   margin-bottom: 0px;
 }
-/* line 95, ../sass/components/_blocks.scss */
+/* line 96, ../sass/components/_blocks.scss */
 .islandora-objects-display-switch ul.islandora-solr-display li a.display-bookmark, .islandora-objects-display-switch ul.links li a.display-bookmark, .islandora-basic-collection-display-switch ul.islandora-solr-display li a.display-bookmark, .islandora-basic-collection-display-switch ul.links li a.display-bookmark, #block-islandora-solr-sort ul.islandora-solr-display li a.display-bookmark, #block-islandora-solr-sort ul.links li a.display-bookmark, #block-islandora-solr-display-switch ul.islandora-solr-display li a.display-bookmark, #block-islandora-solr-display-switch ul.links li a.display-bookmark {
   background-image: url('../images/display-bookmark.png?1505390511');
 }
-/* line 99, ../sass/components/_blocks.scss */
+/* line 100, ../sass/components/_blocks.scss */
 .islandora-objects-display-switch ul.islandora-solr-display li a.display-default, .islandora-objects-display-switch ul.links li a.display-default, .islandora-basic-collection-display-switch ul.islandora-solr-display li a.display-default, .islandora-basic-collection-display-switch ul.links li a.display-default, #block-islandora-solr-sort ul.islandora-solr-display li a.display-default, #block-islandora-solr-sort ul.links li a.display-default, #block-islandora-solr-display-switch ul.islandora-solr-display li a.display-default, #block-islandora-solr-display-switch ul.links li a.display-default {
   background-image: url('../images/display-grid-list.png?1505390511');
 }
-/* line 103, ../sass/components/_blocks.scss */
+/* line 104, ../sass/components/_blocks.scss */
 .islandora-objects-display-switch ul.islandora-solr-display li a.display-grid, .islandora-objects-display-switch ul.links li a.display-grid, .islandora-basic-collection-display-switch ul.islandora-solr-display li a.display-grid, .islandora-basic-collection-display-switch ul.links li a.display-grid, #block-islandora-solr-sort ul.islandora-solr-display li a.display-grid, #block-islandora-solr-sort ul.links li a.display-grid, #block-islandora-solr-display-switch ul.islandora-solr-display li a.display-grid, #block-islandora-solr-display-switch ul.links li a.display-grid {
   background-image: url('../images/display-grid.png?1505390511');
 }
 
-/* line 110, ../sass/components/_blocks.scss */
+/* line 111, ../sass/components/_blocks.scss */
 #block-islandora-solr-display-switch {
   float: right;
   width: 100%;
 }
 
-/* line 115, ../sass/components/_blocks.scss */
+/* line 116, ../sass/components/_blocks.scss */
 .islandora-solr-display {
   float: right;
 }
-/* line 117, ../sass/components/_blocks.scss */
+/* line 118, ../sass/components/_blocks.scss */
 .islandora-solr-display li {
   display: inline-block;
 }
 
-/* line 123, ../sass/components/_blocks.scss */
+/* line 124, ../sass/components/_blocks.scss */
 .front-search-wrapper {
   color: white;
   width: 100%;
   height: 100;
 }
-/* line 126, ../sass/components/_blocks.scss */
+/* line 127, ../sass/components/_blocks.scss */
 .front-search-wrapper a {
   text-decoration: none;
   color: white;
 }
-/* line 130, ../sass/components/_blocks.scss */
+/* line 131, ../sass/components/_blocks.scss */
 .front-search-wrapper li.menu__item {
   list-style: none;
 }
-/* line 135, ../sass/components/_blocks.scss */
+/* line 136, ../sass/components/_blocks.scss */
 .front-search-wrapper .front-search-box {
   max-width: 493px;
   padding-top: 5em;
 }
-/* line 138, ../sass/components/_blocks.scss */
+/* line 139, ../sass/components/_blocks.scss */
 .front-search-wrapper .front-search-box #islandora-solr-simple-search-form {
   border-radius: 5px;
   box-sizing: border-box;
   padding: 20px;
 }
-/* line 143, ../sass/components/_blocks.scss */
+/* line 144, ../sass/components/_blocks.scss */
 .front-search-wrapper .front-search-box #islandora-solr-simple-search-form #edit-simple .form-submit {
   background-attachment: scroll;
   background-clip: border-box;
@@ -1846,11 +1847,11 @@ footer .nav-inner-wrapper {
   top: -40px;
   width: 38px;
 }
-/* line 162, ../sass/components/_blocks.scss */
+/* line 163, ../sass/components/_blocks.scss */
 .front-search-wrapper .front-search-box #islandora-solr-simple-search-form .form-item-islandora-simple-search-query {
   width: 100%;
 }
-/* line 164, ../sass/components/_blocks.scss */
+/* line 165, ../sass/components/_blocks.scss */
 .front-search-wrapper .front-search-box #islandora-solr-simple-search-form .form-item-islandora-simple-search-query input {
   width: 100%;
   -moz-border-bottom-colors: none;
@@ -1880,6 +1881,7 @@ footer .nav-inner-wrapper {
   border-top-width: 1px;
   font-style: italic;
   line-height: 40px;
+  height: 43px;
   margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
@@ -1887,47 +1889,47 @@ footer .nav-inner-wrapper {
   padding-left: 15px;
   text-align: left;
 }
-/* line 201, ../sass/components/_blocks.scss */
+/* line 203, ../sass/components/_blocks.scss */
 .front-search-wrapper .front-search-box #islandora-solr-simple-search-form h1 {
   text-align: center;
   font-size: 20px;
 }
-/* line 207, ../sass/components/_blocks.scss */
+/* line 209, ../sass/components/_blocks.scss */
 .front-search-wrapper .adv_search {
   float: right;
 }
-/* line 210, ../sass/components/_blocks.scss */
+/* line 212, ../sass/components/_blocks.scss */
 .front-search-wrapper .front-menu-wrapper ul {
   display: table-cell;
   padding-top: 5px;
 }
 
-/* line 216, ../sass/components/_blocks.scss */
+/* line 218, ../sass/components/_blocks.scss */
 .islandora-solr-facet-wrapper {
   padding-top: 20px;
 }
-/* line 217, ../sass/components/_blocks.scss */
+/* line 219, ../sass/components/_blocks.scss */
 .islandora-solr-facet-wrapper h3 {
   margin-top: 0em;
   margin-bottom: 0em;
 }
-/* line 222, ../sass/components/_blocks.scss */
+/* line 224, ../sass/components/_blocks.scss */
 .islandora-solr-facet-wrapper .islandora-solr-facet {
   margin-top: .5em;
 }
 
-/* line 228, ../sass/components/_blocks.scss */
+/* line 230, ../sass/components/_blocks.scss */
 ul.islandora-solr-facet span {
   color: grey;
 }
 
-/* line 233, ../sass/components/_blocks.scss */
+/* line 235, ../sass/components/_blocks.scss */
 .islandora-basic-collection-wrapper hr {
   display: none;
 }
 
 /* Facet overflow fix */
-/* line 238, ../sass/components/_blocks.scss */
+/* line 240, ../sass/components/_blocks.scss */
 ul.islandora-solr-facet > li > a {
   text-overflow: ellipsis;
   overflow: hidden;
@@ -1938,11 +1940,11 @@ ul.islandora-solr-facet > li > a {
 }
 
 /* Text wrapping fix */
-/* line 249, ../sass/components/_blocks.scss */
+/* line 251, ../sass/components/_blocks.scss */
 .view-collection-item-details-view .views-label {
   vertical-align: top;
 }
-/* line 253, ../sass/components/_blocks.scss */
+/* line 255, ../sass/components/_blocks.scss */
 .view-collection-item-details-view .field-content {
   width: 75%;
 }
