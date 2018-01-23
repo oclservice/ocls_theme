@@ -24,6 +24,7 @@ function ocls_theme_get_multi_site() {
     'georgian',
     'loyalist',
     'seneca',
+    'niagara',
   );
   foreach ($multi_sites as $site) {
     if (strpos($base_url, $site) !== FALSE) {
