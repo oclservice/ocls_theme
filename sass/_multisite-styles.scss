@@ -160,6 +160,21 @@ body {
       }
     }
   }
+
+  &.niagara {
+    .header__region {
+      .block-superfish {
+        li {
+          a {
+            &:visited,
+            &:active {
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 .view-partner-institutions,
