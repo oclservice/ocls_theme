@@ -26,7 +26,6 @@
     <?php else: ?>
       <?php foreach ($description as $value): ?>
         <?php if(isset($value['display_label']) && !empty($value['display_label'])):?>
-        <?php dsm($value['display_label'], "display label")?>
         <h2><?php print $value['display_label']; ?></h2>
         <?php endif;?>
         <div class="collection-description-value"><?php print check_markup(implode("\n", $value['value']), 'islandora_solr_metadata_filtered_html'); ?></div>
