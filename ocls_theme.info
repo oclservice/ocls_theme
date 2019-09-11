@@ -141,6 +141,7 @@ settings[zen_html5_respond_meta][] = meta
 settings[zen_rebuild_registry]     = 1
 settings[zen_wireframes]           = 0
 
+settings[ocls_custom_logo_url_text] = ""
 settings[ocls_show_collection_search] = 1
 settings[ocls_slideshow_pids]     = islandora:root
 settings[ocls_background_dsid]    = TN
