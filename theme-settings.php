@@ -23,6 +23,7 @@ function ocls_theme_form_system_theme_settings_alter(&$form, &$form_state, $form
     '#type' => 'textfield',
     '#title' => t('Custom URL for the header logo'),
     '#default_value' => theme_get_setting('ocls_custom_logo_url_text'),
+    '#description' => t("URL that replaces the default one when clicking on the the Logo image in a page header."),
   ); 
   $form['ocls_theme_custom']['ocls_theme_search_text'] = array(
     '#type' => 'textarea',
