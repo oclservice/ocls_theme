@@ -142,6 +142,7 @@ settings[zen_rebuild_registry]     = 1
 settings[zen_wireframes]           = 0
 
 settings[ocls_custom_logo_url_text] = ""
+settings[ocls_custom_no_search_results_msg] = "Sorry, but your search returned no results."
 settings[ocls_show_collection_search] = 1
 settings[ocls_slideshow_pids]     = islandora:root
 settings[ocls_background_dsid]    = TN

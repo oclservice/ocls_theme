@@ -24,7 +24,13 @@ function ocls_theme_form_system_theme_settings_alter(&$form, &$form_state, $form
     '#title' => t('Custom URL for the header logo'),
     '#default_value' => theme_get_setting('ocls_custom_logo_url_text'),
     '#description' => t("URL that replaces the default one when clicking on the the Logo image in a page header."),
-  ); 
+  );
+  $form['ocls_theme_custom']['ocls_custom_no_search_results_msg'] = array(
+    '#type' => 'textarea',
+    '#title' => t('Custom message when no search results are returned'),
+    '#default_value' => theme_get_setting('ocls_custom_no_search_results_msg'),
+    '#description' => t("This message will replace the one that appears by default when 0 search results appear."),
+  );  
   $form['ocls_theme_custom']['ocls_theme_search_text'] = array(
     '#type' => 'textarea',
     '#title' => t('Search area welcome text.'),
