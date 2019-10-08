@@ -29,7 +29,7 @@ function ocls_theme_form_system_theme_settings_alter(&$form, &$form_state, $form
     '#type' => 'textarea',
     '#title' => t('Custom message when no search results are returned'),
     '#default_value' => theme_get_setting('ocls_custom_no_search_results_msg'),
-    '#description' => t("This message will replace the one that appears by default when 0 search results appear."),
+    '#description' => t("This message will replace the one that appears by default when 0 search results appear. It is possible to insert html tags into the message."),
   );  
   $form['ocls_theme_custom']['ocls_theme_search_text'] = array(
     '#type' => 'textarea',
