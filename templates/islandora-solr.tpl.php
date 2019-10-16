@@ -10,13 +10,13 @@
  */
 
 ?>
-
+<?php 
+$custom_no_search_results_msg=theme_get_setting('ocls_custom_no_search_results_msg');
+if (empty($custom_no_search_results_msg))
+{$custom_no_search_results_msg='Sorry, but your search returned no results.';}
+?>
 <?php if (empty($results)): ?>
-  <?php  if (theme_get_setting('ocls_custom_no_search_results_msg') != ""): ?>
-     <p class="no-results"><?php print theme_get_setting('ocls_custom_no_search_results_msg'); ?></p>
-  <?php else: ?>
-     <p class="no-results"><?php print t('Sorry, but your search returned no results.'); ?></p>
-  <?php endif; ?>
+  <p class="no-results"><?php print t($custom_no_search_results_msg); ?></p>
 <?php else: ?>
   <div class="islandora islandora-solr-search-results">
     <?php $row_result = 0; ?>
