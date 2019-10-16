@@ -19,10 +19,10 @@ function ocls_theme_form_system_theme_settings_alter(&$form, &$form_state, $form
     '#collapsible' => FALSE,
     '#collapsed' => FALSE,
   );
-  $form['ocls_theme_custom']['ocls_custom_logo_url_text'] = array(
+  $form['ocls_theme_custom']['ocls_custom_logo_url'] = array(
     '#type' => 'textfield',
     '#title' => t('Custom URL for the header logo'),
-    '#default_value' => theme_get_setting('ocls_custom_logo_url_text'),
+    '#default_value' => theme_get_setting('ocls_custom_logo_url'),
     '#description' => t("URL that replaces the default one when clicking on the the Logo image in a page header."),
   );
   $form['ocls_theme_custom']['ocls_custom_no_search_results_msg'] = array(
