@@ -96,6 +96,12 @@ function ocls_theme_preprocess_islandora_solr_wrapper(&$variables) {
  * Implements hook_preprocess_page().
  */
 function ocls_theme_preprocess_page(&$variables) {
+  $custom_logo_url = theme_get_setting('ocls_custom_logo_url');
+    
+  if (!empty($custom_logo_url)) {
+    $variables['front_page'] = $custom_logo_url;
+  }
+
   if ($variables['is_front'] == FALSE) {
     // Add the search for the header.
     if (module_exists('islandora_solr')) {
