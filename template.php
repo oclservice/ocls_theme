@@ -56,6 +56,17 @@ function ocls_theme_form_user_login_alter(&$form, &$form_id) {
 }
 
 /**
+ * Implements hook_preprocess_template().
+ */
+function ocls_theme_preprocess_islandora_solr(&$variables) {
+  //Setup message when search brings no results    
+  $variables['custom_no_search_results_msg'] = theme_get_setting('ocls_custom_no_search_results_msg');
+  if (empty($variables['custom_no_search_results_msg'])) {
+    $variables['custom_no_search_results_msg'] = t('Sorry, but your search returned no results.');
+  }
+}
+
+/**
  * Implements hook_preprocess().
  */
 function ocls_theme_preprocess_islandora_solr_metadata_display(array &$variables) {
