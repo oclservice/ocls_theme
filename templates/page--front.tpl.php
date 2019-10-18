@@ -12,7 +12,9 @@
 
   <header class="header" id="header" role="banner">
     <div class="inner-header-wrapper">
-    <?php if ($logo): ?>
+    <?php  if (theme_get_setting('ocls_custom_logo_url_text') != ""): ?>
+      <div class="header-logo"><a href="<?php print theme_get_setting('ocls_custom_logo_url_text'); ?>" title="<?php print t('Home'); ?>" rel="home" class="header__logo" id="logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" class="header__logo-image" /></a></div>
+    <?php elseif ($logo): ?>
       <div class="header-logo"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="header__logo" id="logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" class="header__logo-image" /></a></div>
     <?php endif; ?>
 
